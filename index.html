@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy Birthday ❤️</title>
+<meta name="description" content="A little birthday surprise made just for you." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="birthday.css" />
+</head>
+<body>
+<div class="bd-root">
+
+  <!-- LANDING -->
+  <section id="bd-landing" class="bd-section active">
+    <div class="bd-overlay"></div>
+    <div class="bd-container">
+      <div class="bd-heart">❤️</div>
+      <h1>HAPPY BIRTHDAY BABY 😚</h1>
+      <button class="bd-btn bd-btn-primary" data-goto="password">UNLOCK YOUR SURPRISE</button>
+    </div>
+  </section>
+
+  <!-- PASSWORD -->
+  <section id="bd-password" class="bd-section">
+    <div class="bd-passwordBox">
+      <h2>Your Surprise Awaits ❤️</h2>
+      <p class="bd-small">Enter the password...</p>
+      <input class="bd-input" id="bd-password-input" type="password" placeholder="••••" />
+      <p class="bd-hint">You know the password 😉</p>
+      <button class="bd-btn bd-btn-secondary" id="bd-password-btn">ENTER</button>
+    </div>
+  </section>
+
+  <!-- TYPING -->
+  <section id="bd-typing" class="bd-section">
+    <div class="bd-typingContainer">
+      <div id="bd-typingText"></div>
+    </div>
+  </section>
+
+  <!-- HOME -->
+  <section id="bd-home">
+    <div class="bd-hero">
+      <div class="bd-heroContent">
+        <h1>Happy Birthday My Love ❤️</h1>
+        <p>Today is all about you.
+Every smile.
+Every memory.
+Every little moment.
+Made with love.</p>
+        <button class="bd-btn bd-btn-continue" id="bd-scroll-btn">BEGIN YOUR SURPRISE</button>
+      </div>
+    </div>
+    <div class="bd-collection">
+      <h3>Open Your Gifts 🎁</h3>
+      <div class="bd-cards" id="bd-cards"></div>
+    </div>
+  </section>
+
+  <!-- MEMORIES -->
+  <section id="bd-memories">
+    <div class="bd-memoryHeader">
+      <h1>The Moments I Never Want To Forget ❤️</h1>
+      <button class="bd-btn bd-back" data-goto="home">← Back</button>
+    </div>
+    <div class="bd-gallery" id="bd-gallery"></div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="bd-video" class="bd-section">
+    <div class="bd-video-wrap">
+      <h1>Our Little Movie ❤️</h1>
+      <video id="bd-video-el"
+        src="images/video2.mp4"
+        controls playsinline preload="metadata"></video>
+      <button class="bd-btn bd-video-back" data-goto="home">← Back</button>
+    </div>
+  </section>
+
+  <!-- LETTER -->
+  <section id="bd-letter" class="bd-section">
+    <h1>A Letter For You ❤️</h1>
+    <div id="bd-letter-closed">
+      <p class="bd-tapText">Tap the envelope...</p>
+      <div class="bd-envelope" id="bd-envelope">💌</div>
+    </div>
+    <div id="bd-letter-open" style="display:none;">
+      <div class="bd-paper">
+        <h2>Dear Baby ❤️</h2>
+        <p>I still remember the very first time we met, how i fell in love with you and your smile & how everything happened unexpectedly. We both did not expect, it was god who made it happen, because he knows we both need each other to complete the love story he made. I am beyond blessed & thankful that someone like you came into my life. Thank you...thank you for making me realize & making me feel that I deserve to be loved, to be happy and to have someone as amazing as you are!
+ The only thing that remained the same at the end was this bond that we share. We had our share of ups & downs, well a lot of them; but we never gave up on each other and I know how much i value this relationship, how much I appreciate you for everything that you have done for me!!. LOVE YOU SO MUCH.
+          🎂</p>
+        <div class="bd-sig">Love,<br />Sakshi ❤️</div>
+      </div>
+    </div>
+    <button class="bd-btn bd-back" style="margin-top:30px;" data-goto="home">← Back</button>
+  </section>
+
+  <!-- PLAYLIST -->
+  <section id="bd-playlist" class="bd-section">
+    <div class="bd-playlistHeader">
+      <h1>Our Playlist ❤️</h1>
+      <button class="bd-btn bd-back" id="bd-playlist-back">← Back</button>
+    </div>
+    <div class="bd-musicPlayer">
+      <div class="bd-albumArt">🎵</div>
+      <div class="bd-songTitle" id="bd-song-title"></div>
+      <div class="bd-songCaption" id="bd-song-caption"></div>
+      <div class="bd-controls">
+        <button id="bd-prev">⏮</button>
+        <button id="bd-play">▶</button>
+        <button id="bd-next">⏭</button>
+      </div>
+      <audio id="bd-audio"></audio>
+      <div class="bd-songList" id="bd-song-list"></div>
+    </div>
+  </section>
+
+  <!-- CAKE -->
+  <section id="bd-cake" class="bd-section">
+    <div class="bd-cakeContainer">
+      <h1>Make A Wish 🎂</h1>
+      <p>Close your eyes...
+Make a beautiful wish...
+Then blow the candles ❤️</p>
+      <div class="bd-cakeArea">
+        <span class="bd-cake-emoji">🎂</span>
+        <div class="bd-candles" id="bd-candles"></div>
+      </div>
+      <div class="bd-cake-msg" id="bd-cake-msg"></div>
+      <div style="margin-top:20px;">
+        <button class="bd-btn bd-back" id="bd-blow-btn">Blow The Candles 🕯️</button>
+        <button class="bd-btn bd-back" style="margin-left:10px;" data-goto="home">← Back</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section id="bd-final" class="bd-section">
+    <div class="bd-finalOverlay"></div>
+    <div class="bd-finalContent">
+      <h1>Happy Birthday My Love ❤️</h1>
+      <p>If you've reached here...
+Thank you for taking this little journey.
+Every page...
+Every animation...
+Every surprise...
+Every tiny detail...
+was made with only one purpose...
+To make you smile.
+I hope this becomes one of your favorite memories.
+I love you.
+Today.
+Tomorrow.
+Forever. ❤️</p>
+      <div class="bd-final-buttons">
+        <button class="bd-btn bd-btn-continue" id="bd-restart">Start Again ❤️</button>
+        <button class="bd-btn bd-back" data-goto="home">← Back</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="birthday.js"></script>
+</body>
+</html>
