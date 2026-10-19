@@ -75,7 +75,7 @@ document.querySelectorAll("[data-goto]").forEach(b => {
 const pwInput = document.getElementById("bd-password-input");
 const pwBtn = document.getElementById("bd-password-btn");
 function checkPassword(){
-  if (pwInput.value === "2326") { showPage("typing"); }
+  if (pwInput.value === "1725") { showPage("typing"); }
   else { alert("Wrong Password ❤️"); pwInput.value = ""; }
 }
 pwBtn.addEventListener("click", checkPassword);
