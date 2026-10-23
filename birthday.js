@@ -7,37 +7,37 @@ const messages = [
 ];
 
 const memories = [
-  { img: "images/img2.jpeg", cap: "Every smile with you became my favorite memory. ❤️" },
-  { img: "images/img3.jpeg", cap: "I wish I could relive this day forever." },
-  { img: "images/img13.jpeg", cap: "You make ordinary moments unforgettable." },
-  { img: "images/img17.jpeg", cap: "Every picture has a story. Every story has you." },
-  { img: "images/img12.jpeg", cap: "Thank you for making life beautiful." },
-  { img: "images/img7.jpeg", cap: "I found my favorite place... beside you." },
-  { img: "images/img11.jpeg", cap: "You are my happiest memory." },
-  { img: "images/img9.jpeg", cap: "Happy Birthday To My Favorite Person ❤️" },
+  { img: "images/img7.jpeg", cap: "Every smile with you became my favorite memory. ❤️" },
+  { img: "images/img8.jpeg", cap: "I wish I could relive this day forever." },
+  { img: "images/img4.jpeg", cap: "You make ordinary moments unforgettable." },
+  { img: "images/img12.jpeg", cap: "Every picture has a story. Every story has you." },
+  { img: "images/img15.jpeg", cap: "Thank you for making life beautiful." },
+  { img: "images/img17.jpeg", cap: "I found my favorite place... beside you." },
+  { img: "images/img5.jpeg", cap: "You are my happiest memory." },
+  { img: "images/img6.jpeg", cap: "Happy Birthday To My Favorite Person ❤️" },
 ];
 
 const songs = [
   {
-    title: "Tum Mile ❤️",
+    title: "YOU (TU)❤️",
     caption: "Every time this song plays...\nI think of you ❤️",
-    url: "music/tum mile.mp3"
+    url: "music/you.mp3"
     
   },
   {
-    title: "Until I Found You",
+    title: "Tu Chahiye",
     caption: "You are the one I was waiting for. 🌙",
-    url: "music/until.mp3"
+    url: "music/tu chahiye.mp3"
   },
   {
-    title: "Perfect",
+    title: "Sahiba",
     caption: "Because you are perfect to me. ✨",
-    url: "music/perfect.mp3"
+    url: "music/sahiba.mp3"
   },
   {
-    title: "Our Forever Song",
+    title: "Tera Naam Doon",
     caption: "Forever starts with you. 💖",
-    url: "music/khat.mp3"
+    url: "music/teraNaamDoon.mp3"
   }
 ];
 
@@ -45,12 +45,12 @@ const songs = [
 
 
 const cards = [
-  { key: "memories", title: "The Moments I Never Want To Forget", img: "images/us.jpeg" },
-  { key: "video",    title: "Tiny Pieces Of Happiness",            img: "images/img8.jpeg" },
-  { key: "letter",   title: "A Letter For You",                    img: "images/img10.jpeg" },
-  { key: "cake",     title: "Make A Wish",                         img: "images/img20.jpeg" },
-  { key: "playlist", title: "Songs That Remind Me Of You",         img: "images/img21.jpeg" },
-  { key: "final",    title: "One Last Surprise...",                img: "images/img22.jpeg" },
+  { key: "memories", title: "The Moments I Never Want To Forget", img: "images/img4.jpeg" },
+  { key: "video",    title: "Tiny Pieces Of Happiness",            img: "images/img6.jpeg" },
+  { key: "letter",   title: "A Letter For You",                    img: "images/img9.jpeg" },
+  { key: "cake",     title: "Make A Wish",                         img: "images/img5.jpeg" },
+  { key: "playlist", title: "Songs That Remind Me Of You",         img: "images/img3.jpeg" },
+  { key: "final",    title: "One Last Surprise...",                img: "images/img8.jpeg" },
 ];
 
 /* ==== Navigation ==== */
