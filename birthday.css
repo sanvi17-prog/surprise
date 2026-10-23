@@ -41,7 +41,7 @@ body { margin:0; font-family:'Inter', sans-serif; background:#090909; color:whit
 /* Home */
 #bd-home { position:fixed; top:0; left:0; width:100%; height:100vh; z-index:700; overflow-y:auto; display:none; flex-direction:column; }
 #bd-home.active { display:flex; }
-.bd-hero { position:relative; height:85vh; display:flex; align-items:flex-end; padding:70px; background:linear-gradient(to top,#090909 5%,rgba(9,9,9,.25) 55%,rgba(9,9,9,.10) 100%),url("images/img15.jpeg") center/cover; }
+.bd-hero { position:relative; height:85vh; display:flex; align-items:flex-end; padding:70px; background:linear-gradient(to top,#090909 5%,rgba(9,9,9,.25) 55%,rgba(9,9,9,.10) 100%),url("images/img5.jpeg") center/cover; }
 .bd-heroContent { position:relative; z-index:5; max-width:650px; }
 .bd-heroContent h1 { font-family:'Cormorant Garamond',serif; font-size:74px; line-height:1.1; color:#E8C18A; margin-bottom:25px; }
 .bd-heroContent p { font-size:20px; line-height:1.8; color:#ECECEC; margin-bottom:35px; white-space:pre-line; }
